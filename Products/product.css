@@ -1,0 +1,81 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: inherit;
+}
+body {
+}
+.main-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.side-bar {
+  width: 400px;
+  height: 100vh;
+  background-color: #12b8bf;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.sider-items {
+}
+.for-drinks {
+  color: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 50px;
+  background-color: lightblue;
+  gap: 20px;
+}
+.for-drinks:hover {
+  background-color: burlywood;
+  cursor: pointer;
+  color: green;
+}
+#arrow {
+  font-size: 20px;
+}
+.main-items {
+  font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  color: blueviolet;
+}
+.main-item-hidden {
+  visibility: hidden;
+}
+
+#add-drinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  width: 320px;
+  height: 50px;
+  border: 2px solid orange;
+  cursor: pointer;
+}
+.drinks {
+}
+.iframes {
+  width: 100%;
+  height: 100vh;
+}
+.iframes-hidden {
+  visibility: hidden;
+}
