@@ -5,7 +5,7 @@ let arrow = document.getElementById("arrow");
 let nav = document.querySelector("#nav");
 let allTypes = document.querySelectorAll("#add-drinks");
 let src_water = "../water/water.html";
-console.log(allTypes);
+
 let s = "deg";
 let flag = true;
 

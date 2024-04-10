@@ -5,8 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./product.css" />
+    <link rel="stylesheet" type="text/css" href="../index.css" />
   </head>
   <body>
+    <section class="nav-section">
+      <nav class="nav">
+        <div class="logo"></div>
+        <div class="nav-items">
+          <a href="../index.html" id="items">Home</a>
+          <a href="./Products/products.html" id="items" target="_self"
+            >Products</a
+          >
+        </div>
+        <div class="burger">
+          <div class="lines"></div>
+          <div class="lines"></div>
+          <div class="lines"></div>
+        </div>
+      </nav>
+    </section>
+    <section>
+      <div class="pop pop-hidden">
+        <div class="div-close">
+          <div class="close"><h1>&times;</h1></div>
+        </div>
+
+        <a href="#" id="pop-items">Home</a>
+        <a href="./Products/products.html" id="pop-items">Products</a>
+      </div>
+    </section>
     <section>
       <div class="main-content">
         <div class="side-bar">
@@ -24,9 +51,15 @@
           </div>
         </div>
 
-        <iframe src="" title="Iframe Example" id="nav"></iframe>
+        <iframe
+          src=""
+          title="Iframe Example"
+          id="nav"
+          style="border: none"
+        ></iframe>
       </div>
     </section>
+    <script src="../index.js"></script>
     <script src="./product.js"></script>
   </body>
 </html>
