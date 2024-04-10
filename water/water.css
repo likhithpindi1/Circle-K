@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: inherit;
+}
+body {
+  padding: 40px;
+}
+.volic {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+#title {
+  width: 100%;
+  padding: 30px;
+  background-color: aqua;
+}
+.info {
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.stock-change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95px;
+  height: 39px;
+  border: 1px solid black;
+  font-size: 15px;
+
+  background-color: gold;
+  cursor: pointer;
+}
+#save {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95px;
+  height: 39px;
+  font-size: 15px;
+
+  background-color: gold;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.main-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.volic-img {
+  background-image: url("../images/volvic/1.5L.jpg");
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 1200px) {
+  .main-item {
+    flex-wrap: wrap;
+  }
+}
